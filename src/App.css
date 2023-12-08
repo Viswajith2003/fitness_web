@@ -1,0 +1,15 @@
+button{
+    box-shadow: 0 0 5px rgb(116, 255, 2),
+    0 0 25px cyan;
+}
+button:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+    
+}
+.App {
+    background-color: #fefefe;
+    height: 100vh;
+    width: 100%;
+  }
