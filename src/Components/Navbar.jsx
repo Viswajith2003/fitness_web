@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import "../CSS/Navbar.css";
 import { Link, NavLink } from "react-router-dom";
 
@@ -9,7 +8,7 @@ export const Navbar = () => {
   return (
     <nav>
       <Link to="/" className="title">
-        <h1 className="text-4xl font-bold ml-8">GET-SHAPE</h1>
+        <h1 className="text-5xl font-bold ml-8">GET-SHAPE</h1>
       </Link>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
         <span></span>
