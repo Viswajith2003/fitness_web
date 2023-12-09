@@ -1,34 +1,39 @@
 import React from "react";
-import gym from "../assets/gym.jpg";
+import wrkout from "../assets/body.jpg";
 import "../CSS/Home.css";
 
 function Home() {
   return (
-    <div className="container text-black">
-      <div className="flex items-center mt-14">
+    <div className="container">
+      <div className="flex items-center mt-10">
         {/* Content on the left */}
-        <div className=" flex-shrink-0">
+        <div className=" flex-shrink-0 mb-12">
           <div className="mt-32 mb-5">
             <h1 className="font-bold text-9xl">Fitness Club</h1>
           </div>
           <h3 className="text-5xl">
             Lets Build it Together <br />
             And Get in{" "}
-            <span className="text-blue-700 font-bold text-7xl"> Shape </span>
+            <span className="text-red-600 font-bold text-7xl"> Shape </span>
             <br />
           </h3>
           <br />
           <p className="text-2xl mb-14">
             Checkout the most effective exercises
           </p>
-          <button className="rounded-3xl w-48 h-14 text-2xl font-bold text-white hover:text-cyan-400 bg-blue-600">
+          
+          <button className="rounded-3xl w-48 h-14 text-2xl font-bold text-white hover:text-red-600 bg-red-600">
             Explore
           </button>
         </div>
 
         {/* Image on the right */}
-        <div className="ml-24 mt-28">
-          <img src={gym} alt="image" />
+        <div className="ml-24 mt-24">
+          <img
+            src={wrkout}
+            alt="image"
+            style={{ height: "600px", width: "600px" }}
+          />
         </div>
       </div>
     </div>

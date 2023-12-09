@@ -8,7 +8,7 @@ export const Navbar = () => {
   return (
     <nav>
       <Link to="/" className="title">
-        <h1 className="text-5xl font-bold ml-8">GET-SHAPE</h1>
+        <h1 className="text-5xl font-bold ml-8">GetShape</h1>
       </Link>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
         <span></span>
