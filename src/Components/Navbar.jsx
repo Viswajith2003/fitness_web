@@ -1,12 +1,17 @@
 import React, { useState } from "react";
 import "../CSS/Navbar.css";
 import { Link, NavLink } from "react-router-dom";
+import { motion } from "framer-motion";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav>
+    <motion.nav
+      initial={{ opacity: 0, y: -100 }}
+      animate={{ opacity: 1, y: 0}}
+      transition={{ duration: 1 }}
+    >
       <Link to="/" className="title">
         <h1 className="text-5xl font-bold ml-8">GetShape</h1>
       </Link>
@@ -38,6 +43,6 @@ export const Navbar = () => {
           </NavLink>
         </li>
       </ul>
-    </nav>
+    </motion.nav>
   );
 };

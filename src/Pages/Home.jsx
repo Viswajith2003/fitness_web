@@ -1,13 +1,18 @@
 import React from "react";
 import wrkout from "../assets/body-org.png";
 import "../CSS/Home.css";
+import {motion, spring} from "framer-motion"
 
 function Home() {
   return (
     <div className="">
       <div className="flex items-center ml-52">
         {/* Content on the left */}
-        <div className=" flex-shrink-0 mb-12">
+        <motion.div className=" flex-shrink-0 mb-12"
+        initial={{x:-100}}
+        animate={{x:0}}
+        transition={{type:"spring",duration:1}}
+        >
           <div className="mt-32 mb-5">
             <h1 className="font-bold text-9xl">Fitness Club</h1>
           </div>
@@ -25,16 +30,19 @@ function Home() {
           <button className="rounded-3xl w-48 h-14 text-2xl font-bold text-white hover:text-red-600 bg-red-600">
             Explore
           </button>
-        </div>
+        </motion.div>
 
         {/* Image on the right */}
-        <div className="ml-24 mt-12">
+        <motion.div className="ml-24 mt-12"
+         initial={{x:100}}
+         animate={{x:0}}
+         transition={{type:"spring", duration:1}}>
           <img
             src={wrkout}
             alt="image"
             style={{ height: "800px", width: "600px" }}
           />
-        </div>
+        </motion.div>
       </div>
     </div>
   );

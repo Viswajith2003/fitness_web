@@ -7,9 +7,13 @@ import Home from "./Pages/Home.jsx";
 import Exercise from "./Pages/Exercise";
 import BMI from "./Pages/BMI.jsx";
 import Contacts from "./Pages/Contacts.jsx";
+import Navbar1 from "./Components/Navbar1";
 
 function App() {
   return (
+    // <div>
+    //   <Navbar1/>
+    // </div>
     <Router>
       <div>
         <Navbar />
