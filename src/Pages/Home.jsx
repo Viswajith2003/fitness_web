@@ -1,11 +1,11 @@
 import React from "react";
-import wrkout from "../assets/body.jpg";
+import wrkout from "../assets/body-org.png";
 import "../CSS/Home.css";
 
 function Home() {
   return (
-    <div className="container">
-      <div className="flex items-center mt-10">
+    <div className="">
+      <div className="flex items-center ml-52">
         {/* Content on the left */}
         <div className=" flex-shrink-0 mb-12">
           <div className="mt-32 mb-5">
@@ -21,18 +21,18 @@ function Home() {
           <p className="text-2xl mb-14">
             Checkout the most effective exercises
           </p>
-          
+
           <button className="rounded-3xl w-48 h-14 text-2xl font-bold text-white hover:text-red-600 bg-red-600">
             Explore
           </button>
         </div>
 
         {/* Image on the right */}
-        <div className="ml-24 mt-24">
+        <div className="ml-24 mt-12">
           <img
             src={wrkout}
             alt="image"
-            style={{ height: "600px", width: "600px" }}
+            style={{ height: "800px", width: "600px" }}
           />
         </div>
       </div>
