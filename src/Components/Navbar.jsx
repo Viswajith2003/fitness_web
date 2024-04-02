@@ -3,7 +3,7 @@ import "../CSS/Navbar.css";
 import { Link, NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 
-export const Navbar = () => {
+const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -32,13 +32,13 @@ export const Navbar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/bmi">
+          <NavLink to="/BMI">
             <h5 className="text-xl font-bold">BMI-calc</h5>
           </NavLink>
         </li>
 
         <li>
-          <NavLink to="/contacts">
+          <NavLink to="/Contacts">
             <h5 className="text-xl font-bold">Contacts</h5>
           </NavLink>
         </li>
@@ -46,3 +46,5 @@ export const Navbar = () => {
     </motion.nav>
   );
 };
+
+export default Navbar
