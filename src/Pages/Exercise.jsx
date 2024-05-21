@@ -34,7 +34,7 @@ function Exercise() {
             className="bg-white text-black w-44 h-44 font-bold text-4xl flex items-center justify-center rounded-md border-4 border-red-600 transition-all hover:border-transparent hover:shadow-2xl hover:ring-8 hover:ring-red-500"
            
           >
-            All
+            All items
           </motion.div>
 
           <div className="bg-white text-black w-44 h-44 font-bold text-4xl flex items-center justify-center rounded-md border-4 border-red-600 transition-all hover:border-transparent hover:shadow-2xl hover:ring-8 hover:ring-red-500">
