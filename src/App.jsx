@@ -12,8 +12,8 @@ import Contacts from "./Pages/Contacts.jsx";
 function App() {
   return (
     <div>
-      {/* <Home /> */}
-      {/* <Exercise /> */}
+      <Home />
+      <Exercise />
     </div>
     // <Router>
     //   <div>
