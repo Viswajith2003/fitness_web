@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div  className='container'>
       <h1>
-        This is the contact page but not working
+        This is the contact page.
       </h1>
     </div>
   )
