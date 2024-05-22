@@ -12,7 +12,7 @@ import Contacts from "./Pages/Contacts.jsx";
 function App() {
   return (
     <div>
-      <Home />
+      {/* <Home /> */}
       {/* <Exercise /> */}
     </div>
     // <Router>
