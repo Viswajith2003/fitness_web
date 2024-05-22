@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <Home />
-      <Exercise />
+      {/* <Exercise /> */}
     </div>
     // <Router>
     //   <div>
