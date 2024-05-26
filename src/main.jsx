@@ -10,5 +10,5 @@ ReactDOM.render(
   <BrowserRouter>
     <App />
   </BrowserRouter>,
-  document.getElementById("root")adfasfd
+  document.getElementById("root")
 );
