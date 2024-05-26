@@ -15,19 +15,19 @@ function App() {
       <Home />
       <Exercise />
     </div>
-    <Router>
-      <div>
-        {/* <Navbar />
-        <Home/>
-        <Exercise/> */}
-        {/* <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/exercise" element={<Exercise />} />
-          <Route path="/bmi" element={<BMI />} />
-          <Route path="/contacts" element={<Contacts />} />
-        </Routes> */}
-      </div>
-    </Router>
+    // <Router>
+    //   <div>
+    //     {/* <Navbar />
+    //     <Home/>
+    //     <Exercise/> */}
+    //     {/* <Routes>
+    //       <Route path="/" element={<Home />} />
+    //       <Route path="/exercise" element={<Exercise />} />
+    //       <Route path="/bmi" element={<BMI />} />
+    //       <Route path="/contacts" element={<Contacts />} />
+    //     </Routes> */}
+    //   </div>
+    // </Router>
   );
 }
 
