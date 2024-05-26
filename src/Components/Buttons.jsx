@@ -6,7 +6,7 @@ function Buttons() {
       
       <h1 className="text-3xl font-bold">Hello world!</h1>
       <button className="bg-red-600 text-black rounded-3xl w-48 h-12 text-xl">
-        Glowing Btn
+        Glowing Btns
       </button>
       <br />
       <br />
