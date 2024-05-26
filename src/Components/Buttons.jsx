@@ -3,7 +3,7 @@ import React from "react";
 function Buttons() {
   return (
     <div className="container">
-      {/* <button className="btn btn-primary">Click Me</button> */}
+      
       <h1 className="text-3xl font-bold">Hello world!</h1>
       <button className="bg-red-600 text-black rounded-3xl w-48 h-12 text-xl">
         Glowing Btn
