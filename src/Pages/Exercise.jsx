@@ -25,16 +25,13 @@ function Exercise() {
         </div>
 
         <motion.div
-          className="flex items-center justify-between p-2 "
+          className="flex items-center justify-between p-2 gap-4"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ type: "spring", stiffness: 100 }}
         >
-          <motion.div
-            className="bg-white text-black w-44 h-44 font-bold text-4xl flex items-center justify-center rounded-md border-4 border-red-600 transition-all hover:border-transparent hover:shadow-2xl hover:ring-8 hover:ring-red-500"
-           
-          >
-            All 
+          <motion.div className="bg-white text-black w-44 h-44 font-bold text-4xl flex items-center justify-center rounded-md border-4 border-red-600 transition-all hover:border-transparent hover:shadow-2xl hover:ring-8 hover:ring-red-500">
+            All
           </motion.div>
 
           <div className="bg-white text-black w-44 h-44 font-bold text-4xl flex items-center justify-center rounded-md border-4 border-red-600 transition-all hover:border-transparent hover:shadow-2xl hover:ring-8 hover:ring-red-500">
@@ -45,6 +42,27 @@ function Exercise() {
           </div>
           <div className="bg-white text-black w-44 h-44 font-bold text-4xl flex items-center justify-center rounded-md border-4 border-red-600 transition-all hover:border-transparent hover:shadow-2xl hover:ring-8 hover:ring-red-500">
             Leg
+          </div>
+          <div className="bg-white text-black w-44 h-44 font-bold text-4xl flex items-center justify-center rounded-md border-4 border-red-600 transition-all hover:border-transparent hover:shadow-2xl hover:ring-8 hover:ring-red-500">
+            neck
+          </div>
+          <div className="bg-white text-black w-44 h-44 font-bold text-4xl flex items-center justify-center rounded-md border-4 border-red-600 transition-all hover:border-transparent hover:shadow-2xl hover:ring-8 hover:ring-red-500">
+            shoulder
+          </div>
+          <div className="bg-white text-black w-44 h-44 font-bold text-4xl flex items-center justify-center rounded-md border-4 border-red-600 transition-all hover:border-transparent hover:shadow-2xl hover:ring-8 hover:ring-red-500">
+            waist
+          </div>
+          <div className="bg-white text-black w-44 h-44 font-bold text-4xl flex items-center justify-center rounded-md border-4 border-red-600 transition-all hover:border-transparent hover:shadow-2xl hover:ring-8 hover:ring-red-500">
+            Lower Arms
+          </div>
+          <div className="bg-white text-black w-44 h-44 font-bold text-4xl flex items-center justify-center rounded-md border-4 border-red-600 transition-all hover:border-transparent hover:shadow-2xl hover:ring-8 hover:ring-red-500">
+            Lower legs
+          </div>
+          <div className="bg-white text-black w-44 h-44 font-bold text-4xl flex items-center justify-center rounded-md border-4 border-red-600 transition-all hover:border-transparent hover:shadow-2xl hover:ring-8 hover:ring-red-500">
+            Upper Arms
+          </div>
+          <div className="bg-white text-black w-44 h-44 font-bold text-4xl flex items-center justify-center rounded-md border-4 border-red-600 transition-all hover:border-transparent hover:shadow-2xl hover:ring-8 hover:ring-red-500">
+            Upper legs
           </div>
         </motion.div>
       </div>
