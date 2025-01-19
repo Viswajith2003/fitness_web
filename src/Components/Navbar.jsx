@@ -9,8 +9,9 @@ const Navbar = () => {
   return (
     <motion.nav
       initial={{ opacity: 0, y: -100 }}
-      animate={{ opacity: 1, y: 0}}
+      animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
+      className="px-32"
     >
       <Link to="/" className="title">
         <h1 className="text-5xl font-bold ml-8">GetShape</h1>
@@ -47,4 +48,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar
+export default Navbar;
