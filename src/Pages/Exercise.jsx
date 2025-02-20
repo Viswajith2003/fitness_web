@@ -14,14 +14,17 @@ function Exercise() {
           >
             Awesome Exercise You Should Know
           </motion.h2>
-          <motion.input
-            type="search"
-            className="p-3 rounded w-2/5"
-            placeholder="Search Exercise.."
-            initial={{ x: 100 }}
-            animate={{ x: 0 }}
-            transition={{ type: "spring", duration: 1 }}
-          />
+          <div>
+            <motion.input
+              type="search"
+              className="p-[12px] w-[600px]"
+              placeholder="Search Exercise.."
+              initial={{ x: 100 }}
+              animate={{ x: 0 }}
+              transition={{ type: "spring", duration: 1 }}
+            />
+            <button className="bg-red-500 p-[10px] w-32 text-lg">Search</button>
+          </div>
         </div>
 
         <motion.div
