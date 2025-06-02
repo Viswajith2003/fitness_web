@@ -1,33 +1,24 @@
 import React from "react";
-import "./App.css";
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import { Box } from "@mui/material";
-import Navbar from "./Components/Navbar.jsx";
-import Home from "./Pages/Home.jsx";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./Components/Navbar"; // Adjust path as needed
+import Home from "./Pages/Home";
 import Exercise from "./Pages/Exercise";
-import BMI from "./Pages/BMI.jsx";
-import Contacts from "./Pages/Contacts.jsx";
-
+import Contact from "./Pages/Contacts";
+import Bmi from "./Pages/BMI";
 
 function App() {
   return (
-    <div>
-      <Home />
-      <Exercise />
-    </div>
-    // <Router>
-    //   <div>
-    //     {/* <Navbar />
-    //     <Home/>
-    //     <Exercise/> */}
-    //     {/* <Routes>
-    //       <Route path="/" element={<Home />} />
-    //       <Route path="/exercise" element={<Exercise />} />
-    //       <Route path="/bmi" element={<BMI />} />
-    //       <Route path="/contacts" element={<Contacts />} />
-    //     </Routes> */}
-    //   </div>
-    // </Router>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/exercise" element={<Exercise />} />
+          <Route path="/bmi" element={<Bmi />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
